@@ -1,5 +1,5 @@
 # SwipeMatic
-**Letting AI Swipe and Match for You**
+Letting AI Swipe and Match for You
 
 ## I. Onboarding Flow
 1. **Sign-Up:**
