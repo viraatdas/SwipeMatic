@@ -1,7 +1,13 @@
 # SwipeMatic
 Letting AI Swipe and Match for You
 
-## I. Onboarding Flow
+
+---
+
+## UX
+
+
+### I. Onboarding Flow
 1. **Sign-Up:**
    - Simple, clean interface prompting users to sign up via email, social media, or phone.
    - Quick and intuitive verification process.
@@ -14,9 +20,9 @@ Letting AI Swipe and Match for You
    - Users upload photos and fill out basic details (name, age, location, interests).
    - The profile preview is shown in the same format that other users will see.
 
----
 
-## II. Learning Mode (Swipe Phase)
+
+### II. Learning Mode (Swipe Phase)
 1. **Swipe Screen:**
    - Familiar swipe interface: **left** for "no" and **right** for "yes." Clean and intuitive, featuring profile pictures, basic info, and selected responses to the open-ended prompts.
    - Users can either swipe or click into a profile to view more details.
@@ -26,9 +32,9 @@ Letting AI Swipe and Match for You
    - After a match, a minimalist messaging interface opens, encouraging users to chat. The design is simple, focusing on conversation.
    - **AI Prompt Assistance**: The app occasionally suggests conversation starters or replies based on both users' profiles, easing the flow of conversation.
 
----
 
-## III. Autopilot Mode
+
+### III. Autopilot Mode
 1. **Auto-Matching Interface:**
    - Once the app has gathered enough data, it transitions into **autopilot mode**, where the AI takes over swiping and matching.
    - A **dashboard** offers a clear view of:
@@ -49,9 +55,9 @@ Letting AI Swipe and Match for You
 4. **Match Confirmation:**
    - If the user decides that the match isn’t a good fit after interaction, they can decline the match and the AI will refine future pairings based on this feedback.
 
----
 
-## IV. Notifications & Alerts
+
+### IV. Notifications & Alerts
 1. **Match & Conversation Updates:**
    - Users are notified when their AI has identified potential matches through AI-to-AI conversations.
    - The app keeps users informed of key moments, such as when their AI is in discussions with another AI or when mutual compatibility is found.
@@ -60,9 +66,15 @@ Letting AI Swipe and Match for You
    - Notifications on how AI conversations are progressing, with insights like *"Your AI is getting along well with [Match Name]'s AI!"*
    - Users can receive updates on what traits or qualities are being evaluated.
 
----
 
-## V. Profile Customization & Settings
+
+### V. Profile Customization & Settings
 1. **Feedback & Learning:**
    - After each match or conversation, users can provide feedback, helping the AI refine its matching and interaction strategies.
    - The AI learns from user input, continuously improving its ability to find meaningful matches.
+
+
+---
+
+
+## MVP

@@ -1,0 +1,26 @@
+model User {
+  id         Int      @id @default(autoincrement())
+  customerId String   @unique
+  name       String
+  age        Int
+  location   String
+  interests  String
+  swipes     Swipe[]
+  matches    Match[] @relation("UserMatches")
+}
+
+model Swipe {
+  id             Int    @id @default(autoincrement())
+  userId         Int
+  swipedProfileId Int
+  swipeDirection String  // 'left' or 'right'
+  user           User    @relation(fields: [userId], references: [id])
+}
+
+model Match {
+  id        Int     @id @default(autoincrement())
+  userId    Int     @relation("UserMatches", fields: [userId], references: [id])
+  matchId   Int     // This would reference the matched user's ID
+  isMutual  Boolean @default(false)
+}
+
